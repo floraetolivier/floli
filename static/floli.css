@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Ryman Eco';
+    src: url('ryman_eco.otf') format('opentype');
+}
+
+#login-container {
+    max-width: calc(490px + 15px + 15px);
+    text-align: center;
+}
+
+.navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header {
+    background: linear-gradient(to bottom,
+    rgba(0, 0, 0, 0.0),
+    rgba(0, 0, 0, 0.4)),
+    url(/static/img/floli.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 100vh;
+    font-family: 'Ryman Eco', serif;
+}
+
+.header__title {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header aside {
+    font-size: 2.5rem;
+}
+
+main {
+    background-color: #f7d3d3;
+}
+
+main h1 {
+    font-family: 'Ryman Eco', serif;
+    font-size: 3rem;
+}
+
+main h2 {
+    font-family: 'Ryman Eco', serif;
+}
+
+#main-container {
+    background-color: white;
+}
+
+hr {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 2px solid #f7d3d3;
+}
+
+.footer__logo {
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header aside {
+        font-size: 1.5rem;
+    }
+
+    main h1 {
+        font-size: 2.5rem;
+    }
+}
+
+li + li {
+    margin-top: 2rem;
+}
+
+#map-butte_ronde {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+}
+
+.graines {
+    width: 100%;
+    max-width: 500px;
+}
+
+.butte_ronde {
+    width: 100%;
+    max-width: 500px;
+}
