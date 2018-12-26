@@ -90,10 +90,6 @@ hr {
     }
 }
 
-li + li {
-    margin-top: 2rem;
-}
-
 #map-butte_ronde {
     width: 100%;
     max-width: 600px;
